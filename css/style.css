@@ -1,0 +1,55 @@
+p {
+    color: yellow;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+body {
+    font-family: "Pirata One", system-ui;
+    width: 40%;
+    margin: auto;
+}
+
+.index-page {
+    background-color: lightblue;
+    padding: 30px;
+}
+
+.feed-page {
+    background-color: black;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    width: 350px;
+    margin: auto;
+}
+
+.intro-gif {
+    width: 150px;
+    height: auto;
+    margin: 30px auto;
+}
+
+#main-feed {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px;
+}
+
+#left-column {
+    flex: 1;
+}
+
+#right-column {
+    flex: 2;
+}
+
+#main-feed section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 2px solid lightblue;
+}
