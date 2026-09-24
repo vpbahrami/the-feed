@@ -7,8 +7,6 @@ p {
 
 body {
     font-family: "Pirata One", system-ui;
-    width: 40%;
-    margin: auto;
 }
 
 .index-page {
@@ -38,6 +36,8 @@ img {
     justify-content: space-around;
     gap: 30px;
     padding: 20px;
+    width: 40%;
+    margin: auto;
 }
 
 #left-column {
